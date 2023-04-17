@@ -1,0 +1,66 @@
+.all_input{
+  width: 100%;
+  height: 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: #7879F1;
+  
+  
+}
+.all_input:focus{
+  outline: none;
+  
+}
+.all_input::placeholder{
+  color: #b5b5fd;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.btn_div{
+  width: 100%;
+  text-align: center;
+}
+.btn{
+  width: 8rem;
+  height: 2.4rem;
+  font-size: 1.4rem;
+  color: #7879F1;
+  font-weight: bold;
+  border: none;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #EF5DA8;
+  color: #FCDDEC;
+  
+}
+
+
+.directory_wrapper {
+  background-color: #FCDDEC;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  height: 100px;
+  max-height: 100px; /* maksimum yükseklik 250 piksel */
+  overflow-y: auto; /* yalnızca y eksisinde kaydırma yapılabilir */
+  
+}
+.directory_wrapper li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #5D5FEF;
+}
+.directory_wrapper li span{
+  color: #5D5FEF;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
